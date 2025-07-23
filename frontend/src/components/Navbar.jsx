@@ -20,7 +20,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-4">
           <a
-            href="https://github.com/"
+            href="https://github.com/skkhan456/Password-Manager-web"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-full transition-all duration-200 shadow-sm"
