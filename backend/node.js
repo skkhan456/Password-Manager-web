@@ -28,6 +28,7 @@ app.get('/',async (req,res)=>{
     const collection=db.collection('passwords');
     const finalresult=await collection.find({}).toArray();
     res.json(finalresult);
+    res.send("hello world);
 })
 
 // stroed the password
@@ -38,6 +39,7 @@ app.post('/',async (req,res)=>{
     const finalresult=await collection.insertOne(data);
     
     res.json({success:true,result:finalresult});
+    
 })
 
 
